@@ -7,6 +7,14 @@ ul {
   list-style-type: none;
 }
 
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
 .WeatherApp {
   text-align: center;
   margin: 0 auto;
