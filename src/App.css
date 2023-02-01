@@ -1,6 +1,11 @@
-h1,
-h2 {
-  margin-top: 20px;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
 }
 
 ul {
@@ -16,20 +21,23 @@ footer a {
 }
 
 .WeatherApp {
-  text-align: center;
   margin: 0 auto;
   margin-top: 10px;
   border: 5px solid rgb(38, 99, 212);
   border-radius: 10px;
-  width: 800px;
-  height: 400px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 600px;
 }
 
-.SearchEngine {
+.Weather h2 {
+  font-weight: bold;
+}
+
+.search-engine {
+  justify-content: center;
   margin-top: 20px;
 }
 
-.SearchEngine .btn {
-  margin-left: 10px;
+.current-weather {
+  margin-top: 30px;
+  text-align: center;
 }
