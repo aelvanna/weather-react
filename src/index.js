@@ -4,7 +4,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 import App from "./App";
-import Weather from "./Weather";
 import Footer from "./Footer";
 import reportWebVitals from "./reportWebVitals";
 
