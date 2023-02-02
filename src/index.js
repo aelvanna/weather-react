@@ -13,7 +13,6 @@ root.render(
   <React.StrictMode>
     <div className="WeatherApp">
       <App />
-      <Weather />
     </div>
     <Footer />
   </React.StrictMode>
