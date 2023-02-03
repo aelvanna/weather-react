@@ -20,6 +20,10 @@ footer a {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .WeatherApp {
   margin: 0 auto;
   margin-top: 10px;
