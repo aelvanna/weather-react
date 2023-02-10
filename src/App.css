@@ -9,7 +9,8 @@ h1 {
 }
 
 ul {
-  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
@@ -24,24 +25,12 @@ a {
   text-decoration: none;
 }
 
-.WeatherApp {
-  margin: 0 auto;
-  margin-top: 10px;
-  border: 5px solid rgb(38, 99, 212);
-  border-radius: 10px;
+.App {
+  margin: 30px auto;
   max-width: 600px;
 }
 
-.Weather h2 {
-  font-weight: bold;
-}
-
-.search-engine {
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.current-weather {
-  margin-top: 30px;
-  text-align: center;
+.Weather li {
+  font-size: 16px;
+  list-style-type: none;
 }
