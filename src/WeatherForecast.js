@@ -4,7 +4,7 @@ import axios from "axios";
 import WeatherForecastDay from "./WeatherForecastDay";
 import "./WeatherForecast.css";
 
-export default function WeatherForecast(props) {
+export default function WeatherFo1recast(props) {
   let [loaded, setLoaded] = useState(false);
   let [forecast, setForecast] = useState(null);
 
@@ -28,7 +28,7 @@ export default function WeatherForecast(props) {
 
   if (loaded) {
     return (
-      <div className="WeatherForecast">
+      <div className="WeatherForecast text-center">
         <div className="row">
           {forecast.map(function (dailyForecast, index) {
             if (index < 5) {

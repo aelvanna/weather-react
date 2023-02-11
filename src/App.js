@@ -6,7 +6,6 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
       <Weather defaultCity="Brisbane" />
       <footer>
         <p>This project was coded by Liza Fernandez and is</p>
