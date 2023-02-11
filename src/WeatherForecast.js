@@ -28,6 +28,8 @@ export default function WeatherForecast(props) {
                   <WeatherForecastDay data={dailyForecast} />
                 </div>
               );
+            } else {
+              return null;
             }
           })}
         </div>
@@ -36,6 +38,7 @@ export default function WeatherForecast(props) {
   } else {
     let apiKey = "8teb9f1fao00b420ac25b3a87666cdf6";
     let city = props.city;
+
     let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}`;
 
     axios.get(apiUrl).then(handleResponse);
