@@ -19,7 +19,7 @@ function App() {
         </a>{" "}
         and{" "}
         <a
-          href="https://github.com/aelvanna/weather-react"
+          href="https://subtle-eclair-6f61e1.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
