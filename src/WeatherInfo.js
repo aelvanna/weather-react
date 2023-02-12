@@ -11,7 +11,6 @@ export default function WeatherInfo(props) {
       <h3>
         <FormattedDate date={props.data.date} />
       </h3>
-
       <div>
         <WeatherIcon code={props.data.icon} size={80} />
       </div>
@@ -19,12 +18,8 @@ export default function WeatherInfo(props) {
       <div>
         <WeatherTemperature celsius={props.data.temperature} />
       </div>
-      <div>
-        <ul>
-          <li>Humidity: {props.data.humidity}%</li>
-          <li> Wind: {props.data.wind} km/h</li>
-        </ul>
-      </div>
+      <div>Humidity: {props.data.humidity}%</div>
+      <div>Wind: {props.data.wind} km/h</div>
     </div>
   );
 }
